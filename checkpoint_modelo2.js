@@ -33,7 +33,11 @@ function microondas (alimento,tempo) {
     }
 
         // Se selecionar o prato e colocar um valor maior ou igual a 2x o valor padrao e menor que 3x o valor padrao!
-     else if((alimento == 'pipoca' && tempo >= padraoPipoca*2 && tempo < padraoPipoca*3) || (alimento == 'macarrao' && tempo >= padraoMacarrao*2 && tempo < padraoMacarrao*3) || (alimento == 'carne' && tempo >= padraoCarne*2 && tempo < padraoCarne*3) || (alimento == 'feijao' && tempo >= padraoFeijao*2 && tempo < padraoFeijao*3) || (alimento == 'brigadeiro' && tempo >= padraoBrigadeiro*2 && tempo < padraoBrigadeiro*3)) {
+     else if((alimento == 'pipoca' && tempo >= padraoPipoca*2 && tempo < padraoPipoca*3) || 
+     (alimento == 'macarrao' && tempo >= padraoMacarrao*2 && tempo < padraoMacarrao*3)   || 
+     (alimento == 'carne' && tempo >= padraoCarne*2 && tempo < padraoCarne*3)            || 
+     (alimento == 'feijao' && tempo >= padraoFeijao*2 && tempo < padraoFeijao*3)         || 
+     (alimento == 'brigadeiro' && tempo >= padraoBrigadeiro*2 && tempo < padraoBrigadeiro*3)) {
         return  `Você selecionou ${alimento} por ${tempo} segundos, por isso a ${alimento} queimou!`;
     }
 
